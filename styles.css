@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(202, 202, 202);
+}
+h1{
+    color: black;
+    text-align: center;
+    border: double;
+    background-color: grey;
+}
+.flex-container {
+    display: flex;
+    align-items: stretch;
+}  
+.flex-container > div {
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+}
+.info{
+    border: 1px solid black;
+    color: black;
+    background-color: grey;
+    
+}
+.list-group-item{
+    border: 1px solid black;
+    font-size: 18px;
+}
+.cardgrp{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.socials{
+    margin: 5px;
+}
